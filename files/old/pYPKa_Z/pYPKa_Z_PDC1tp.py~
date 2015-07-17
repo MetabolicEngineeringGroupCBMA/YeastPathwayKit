@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+
+# <codecell>
+from pydna import ipynbimporter
+from pYPKa import pYPKa
+from pydna import pcr, parse, Dseqrecord
+from Bio.Restriction import ZraI, AjiI, EcoRV
+
+enz = ZraI
+
+tp = "PDC1"
+
+# primers ok
+
+primers = parse('''
+>413_ScPDC1tpf (24-mer)
+TTAAATAAGGGTAGCCTCCCCATA
+
+>625_ScPDC1tpr_PacI (34-mer)
+taattaaTTTGATTGATTTGACTGTGTTATTTTG''', ds=False)
+
+pYPKa_cut = pYPKa.cut(enz).pop()
+
+from pygenome import sg
+
+tp = pcr( primers, Dseqrecord(sg.promoter(tp)))
+
+pYPKa_enz_tp = (pYPKa_cut + tp).looped()
+
+pYPKa_enz_tp = pYPKa_enz_tp.synced(pYPKa)
+
+pYPKa_Z_PDC1tp = pYPKa_enz_tp
+# <codecell>
+
+pYPKa_Z_PDC1tp.write("pYPKa_Z_PDC1tp.gb")
+
+# <markdowncell>
+
+# ## Download
+# 
+# [pYPKa_Z_PDC1tp](pYPKa_Z_PDC1tp.gb)
+
+# <codecell>
+

@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+
+# <codecell>
+from pYPKa import pYPKa
+from pydna import pcr, parse, Dseqrecord
+from Bio.Restriction import ZraI, AjiI, EcoRV
+
+enz = ZraI
+
+tp = "TEF1"
+
+# primers ok
+
+primers = parse('''>417_ScTEF1tpf (30-mer)
+                   TTAAATAACAATGCATACTTTGTACGTTCA
+                   >626_ScTEF1tpr_PacI (35-mer)
+                   taattaaTTTGTAATTAAAACTTAGATTAGATTGC''', ds=False)
+
+pYPKa_cut = pYPKa.cut(enz).pop()
+
+from pygenome import sg
+
+import os; os.environ["pydna"] = "nocache"
+
+tp = pcr( primers, Dseqrecord(sg.promoter(tp)))
+
+pYPKa_enz_tp = (pYPKa_cut + tp).looped()
+
+pYPKa_enz_tp = pYPKa_enz_tp.synced(pYPKa)
+
+pYPKa_Z_TEF1tp = pYPKa_enz_tp
+# <codecell>
+
+pYPKa_Z_TEF1tp.write("pYPKa_Z_TEF1tp.gb")
+
+# <markdowncell>
+
+# ## Download
+# 
+# [pYPKa_Z_TEF1tp](pYPKa_Z_TEF1tp.gb)
+
+# <codecell>
+

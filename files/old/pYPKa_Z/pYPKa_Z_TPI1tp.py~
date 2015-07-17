@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+
+# <codecell>
+from pYPKa import pYPKa
+from pydna import pcr, parse, Dseqrecord
+from Bio.Restriction import ZraI, AjiI, EcoRV
+
+enz = ZraI
+
+tp = "TPI1"
+
+# primers ok
+
+primers = parse('''>419_ScTPI1tpf (32-mer)
+                   TTAAATTGTTTAAAGATTACGGATATTTAACT
+
+                   >621_ScTPI1tpr_PacI (35-mer)
+                   taattaaTTTTAGTTTATGTATGTGTTTTTTGTAG''', ds=False)
+
+pYPKa_cut = pYPKa.cut(enz).pop()
+
+from pygenome import sg
+
+tp = pcr( primers, Dseqrecord(sg.promoter(tp)))
+
+pYPKa_enz_tp = (pYPKa_cut + tp).looped()
+
+pYPKa_enz_tp = pYPKa_enz_tp.synced(pYPKa)
+
+pYPKa_Z_TPI1tp = pYPKa_enz_tp
+# <codecell>
+
+pYPKa_Z_TPI1tp.write("pYPKa_Z_TPI1tp.gb")
+
+# <markdowncell>
+
+# ## Download
+# 
+# [pYPKa_Z_TPI1tp](pYPKa_Z_TPI1tp.gb)
+
+# <codecell>
+
+

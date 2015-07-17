@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+
+# <codecell>
+from pydna import ipynb_importer
+from pYPKa import pYPKa
+from pydna import pcr, parse, Genbank, Dseqrecord
+from Bio.Restriction import ZraI, AjiI, EcoRV
+
+gb = Genbank("bjornjobbb@gmail.com")
+
+enz = ZraI 
+
+tp = gb.nucleotide("BK006944.2 REGION: complement(327487..328117)") 
+
+# primers ok
+
+primers = parse('''
+>409_ScFBA1tpf (37-mer)
+TTAAATAATAACAATACTGACAGTACTAAATAATTGC
+>624_ScFBA1tpr_PacI (29-mer)
+taattaaTTTGAATATGTATTACTTGGTT
+''', ds=False)
+
+pYPKa_cut = pYPKa.cut(enz).pop()
+
+tp = pcr( primers, Dseqrecord(tp))
+
+pYPKa_enz_tp = (pYPKa_cut + tp).looped()
+
+pYPKa_enz_tp = pYPKa_enz_tp.synced(pYPKa)
+
+pYPKa_Z_FBA1tp = pYPKa_enz_tp
+
+# <codecell>
+
+pYPKa_Z_FBA1tp.write("pYPKa_Z_FBA1tp.gb")
+
+# <markdowncell>
+
+# ## Download
+# 
+# [pYPKa_Z_FBA1tp](pYPKa_Z_FBA1tp.gb)
+
+# <codecell>
+

@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+from pYPKa import pYPKa
+from pydna import pcr, parse, Dseqrecord
+from Bio.Restriction import ZraI, AjiI, EcoRV
+
+enz = EcoRV
+
+tp = "PDC1"
+
+primers = parse('''
+>413_ScPDC1tpf (24-mer)
+TTAAATAAGGGTAGCCTCCCCATA
+
+>625_ScPDC1tpr_PacI (34-mer)
+taattaaTTTGATTGATTTGACTGTGTTATTTTG''', ds=False)
+
+pYPKa_cut = pYPKa.cut(enz).pop()
+
+from pygenome import sg
+
+tp = pcr( primers, Dseqrecord(sg.promoter(tp)))
+
+pYPKa_enz_tp = (pYPKa_cut + tp).looped()
+
+pYPKa_enz_tp = pYPKa_enz_tp.synced(pYPKa)
+
+pYPKa_E_PDC1tp = pYPKa_enz_tp
