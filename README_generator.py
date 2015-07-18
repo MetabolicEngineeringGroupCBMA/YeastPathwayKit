@@ -3,8 +3,7 @@
 
 import os, codecs
 
-
-files = os.listdir(os.path.dirname(__file__))
+files = os.listdir(".")
 
 nbs = [f for f in files if f.lower().endswith(".ipynb")]
 
@@ -25,7 +24,7 @@ Plasmids with an insert in [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) ar
 pYPKa_Z_* and plasmids with an insert in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) are named
 pYPKa_E_*. Inserts in ZraI and EcoRV can be used as promoters and terminators, respectively.
 
-Each vector is described py an IPyhton notebook.
+Each vector is described py an IPython notebook.
 """.format(no=len(tps))
 
 
@@ -33,8 +32,12 @@ Each vector is described py an IPyhton notebook.
 for tp in tps:
    s+= """
 ###{tp}
+
 [pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)
-[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)\n""".format(tp=tp)
+
+[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)
+
+""".format(tp=tp)
 
    for nb in [n for n in nbs if tp in n]:
        s+= "[{nb}]({nb})\n".format(nb=nb)
