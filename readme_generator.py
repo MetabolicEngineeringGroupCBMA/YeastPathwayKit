@@ -29,18 +29,16 @@ Each vector is described py an IPython notebook.
 
 
 
-for tp in tps:
+for i,tp in enumerate(tps):
    s+= """
-###{tp}
+{i}. {tp}
 
-[pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)
-
-[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)
-
-""".format(tp=tp)
+... [pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)
+... [pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)
+""".format(tp=tp, i=i+1)
 
    for nb in [n for n in nbs if tp in n]:
-       s+= "[{nb}]({nb})\n".format(nb=nb)
+       s+= """... [{nb}]({nb})\n""".format(nb=nb)
 
 
 with codecs.open("README.md", "w", "utf8") as f: f.write(s.strip())
