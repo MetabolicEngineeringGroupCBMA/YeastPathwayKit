@@ -15,9 +15,18 @@ tps = sorted(set(tps))
 s=u"""
 # Yeast pathway kit promoter and terminator vectors
 
-pYPKa_Z_* = promoter vector
-pYPKa_E_* = terminator vector
-"""
+This list contain a total of {no} regulatory sequences
+cloned in the [pYPKa](files/pYPKa.gb) vector in either the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)
+or the [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) site.
+
+![files/pYPK_ZE.png](files/pYPK_ZE.png)
+
+Plasmids with an insert in [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) are named
+pYPKa_Z_* and plasmids with an insert in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) are named
+pYPKa_E_*. Inserts in ZraI and EcoRV can be used as promoters and terminators, respectively.
+
+Each vector is described py an IPyhton notebook.
+""".format(no=len(tps))
 
 
 
