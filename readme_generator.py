@@ -39,7 +39,7 @@ x.vertical_char="|"
 
 
 for i,tp in enumerate(tps):
-    lst = [n for n in nbs if tp in n]
+    lst = ["[{n}]({n})".format(n=n) for n in nbs if tp in n]
     lst+= ['na'] * (2 - len(lst))
     x.add_row([i+1,
                tp,
