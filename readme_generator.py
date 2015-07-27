@@ -34,8 +34,8 @@ from prettytable import PrettyTable, HEADER
 x = PrettyTable(["No.", "TP", "Promoter vector", "Terminator vector", "Promoter nb (or both)", "Terminator nb"])
 x.align= "l"
 x.hrules=HEADER
-x.junction_char=" "
-x.vertical_char=" "
+x.junction_char="|"
+x.vertical_char="|"
 
 
 for i,tp in enumerate(tps):
