@@ -25,33 +25,27 @@ pYPKa_Z_* and plasmids with an insert in [EcoRV](http://rebase.neb.com/rebase/en
 pYPKa_E_*. Inserts in ZraI and EcoRV can be used as promoters and terminators, respectively.
 
 Each vector is described py an IPython notebook.
+
 """.format(no=len(tps))
 
+from prettytable import PrettyTable, HEADER
+#from prettytable import
+
+x = PrettyTable(["No.", "TP", "Promoter vector", "Terminator vector", "Promoter nb (or both)", "Terminator nb"])
+x.align= "l"
+x.hrules=HEADER
+x.junction_char=" "
+x.vertical_char=" "
 
 
 for i,tp in enumerate(tps):
-   s+= """
-{i} {tp} [pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb) | [pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb) | """.format(tp=tp, i=i+1)
+    lst = [n for n in nbs if tp in n]
+    lst+= ['na'] * (2 - len(lst))
+    x.add_row([i+1,
+               tp,
+               "[pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)".format(tp=tp),
+               "[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)".format(tp=tp)]+lst)
 
-   for nb in [n for n in nbs if tp in n]:
-       s+= """[{nb}]({nb})
-""".format(nb=nb)
-
-
+s+=x.get_string()
 with codecs.open("README.md", "w", "utf8") as f: f.write(s.strip())
-
-
-
-
-
-
-
-
-
-
-
-
-
-if __name__ is "__main__":
-    pass
 
