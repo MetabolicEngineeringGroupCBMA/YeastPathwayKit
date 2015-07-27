@@ -39,12 +39,12 @@ x.vertical_char="|"
 
 
 for i,tp in enumerate(tps):
-    lst = ["[{n}]({n})".format(n=n) for n in nbs if tp in n]
+    lst = ["[nb]({n})".format(n=n) for n in nbs if tp in n]
     lst+= ['na'] * (2 - len(lst))
     x.add_row([i+1,
                tp,
-               "[nb](pYPKa_Z_{tp}.gb)".format(tp=tp),
-               "[nb](pYPKa_E_{tp}.gb)".format(tp=tp)]+lst)
+               "[pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)".format(tp=tp),
+               "[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)".format(tp=tp)]+lst)
 
 s+=x.get_string()
 with codecs.open("README.md", "w", "utf8") as f: f.write(s.strip())
