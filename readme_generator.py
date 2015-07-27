@@ -39,12 +39,12 @@ x.vertical_char="|"
 
 
 for i,tp in enumerate(tps):
-    lst = ["[nb]({n})".format(n=n) for n in nbs if tp in n]
-    lst+= ['na'] * (2 - len(lst))
+    lst = [u"[nb]({n})".format(n=n) for n in nbs if tp in n]
+    lst+= [u'--'] * (2 - len(lst))
     x.add_row([i+1,
-               tp,
-               "[pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)".format(tp=tp),
-               "[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)".format(tp=tp)]+lst)
+               u"[{tp}](http://www.yeastgenome.org/locus/{tp}/overview)".format(tp=tp),
+               u"[pYPKa_Z_{tp}.gb](pYPKa_Z_{tp}.gb)".format(tp=tp),
+               u"[pYPKa_E_{tp}.gb](pYPKa_E_{tp}.gb)".format(tp=tp)]+lst)
 
 s+=x.get_string()
 with codecs.open("README.md", "w", "utf8") as f: f.write(s.strip())
