@@ -21,7 +21,5 @@ for pf in pyfiles:
     print new_name
     nb = nbf.read(open(pf, 'r'), 'py')
     nbf.write(nb, open(new_name, 'w'), 'ipynb')
-    
-
 
 a=raw_input("return")
