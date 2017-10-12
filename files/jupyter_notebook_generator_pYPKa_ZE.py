@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#This script generates Jupyter notebooks for pYPKa_Z and pYPKa_E vectors
+# This script generates Jupyter notebooks for pYPKa_Z and pYPKa_E vectors
 # for the yeast pathway kit.:
 #    
 # This script reads a text file called tp_list.txt which has this format:
 #   
-# name   RE fp    rp    comment
+# name    RE   fp    rp    comment
 #
-# RPL11B	Z	646	645	OK
+# RPL11B  Z    646   645   OK
 #
 # the first element is a name which has to be a standard or systematic name 
 # of a gene in Saccharomyces cerevisiae uppercase or lowercase.
@@ -16,9 +16,9 @@
 # RE is the restriction enzyme used (EcoRV or ZraI). 
 #
 # fp and rp are primers used for the amplification. The numbers refer to 
-# numberis in the primer list.
+# number in the primer list.
 #
-# comment 
+# comment can be any text.
 
 from pydna.myprimers import list_primers as lp
 from pydna.dseqrecord import Dseqrecord
@@ -27,6 +27,7 @@ from Bio.Restriction import ZraI, EcoRV
 from pygenome import sg
 import nbformat
 from nbconvert.preprocessors.execute import ExecutePreprocessor
+import notebook.transutils
 import notedown
 from pydna.readers import read
 import os
@@ -35,7 +36,7 @@ cwd = os.getcwd()
 
 from pathlib import Path
 
-outpath = Path(cwd).parents[1]
+outpath = Path(cwd).parent.joinpath("pYPKa_ZE")
 
 pYPKa = read("pYPKa.gb")
 
@@ -60,9 +61,17 @@ for insertname, letter, pf, pr, comment in ( x.split(maxsplit=4) for x in tps if
     else:
         assert (old[0], old[1]) == (pf, pr)
         
+os.chdir(outpath)
+        
 for insertname in sorted(tp_dict):
     
+    
+    
+    
     continue
+
+
+
     
     newname = os.path.join(outpath, "pYPKa_ZE_{}.ipynb".format(insertname))
     
@@ -115,21 +124,31 @@ for insertname in sorted(tp_dict):
     pp = ExecutePreprocessor(timeout=600, kernel_name='python3')
     pp.timeout = 120 # seconds
     pp.interrupt_on_timeout = True
-
+    
     pp.preprocess(nb, resources={})
     
     with open(newname, 'wt') as f:
         nbformat.write(nb, f)
-        
+
+os.chdir(cwd)
+
 with open("README_template.md", "r", encoding="utf8") as f:
-    t=f.read()
+    t=f.read()    
 
 table = "| No. | TP | Promoter vector | Terminator vector | Jupyter nb |\n"        
 table+= "|-----|----|-----------------|-------------------|------------|\n"
 
-for i,insertname in enumerate(sorted(tp_dict)):
-    
-    table+= "|{no} |{insertname} | [pYPKa_Z_{insertname}.gb](pYPKa_Z_{insertname}.gb) | [pYPKa_E_{insertname}.gb](pYPKa_E_{insertname}.gb) | [nb](pYPKa_ZE_{insertname}.ipynb) |\n"
-    
+for no, insertname in enumerate(sorted(tp_dict)):
+    iu = "pYPKa_ZE/"+insertname
+    row = f"|{no} |{iu} | [pYPKa_Z_{iu}.gb](pYPKa_Z_{iu}.gb) | [pYPKa_E_{iu}.gb](pYPKa_E_{iu}.gb) | [nb](pYPKa_ZE_{iu}.ipynb) |\n"
+    table+=row
 
-    
+
+readme = t.format(number_of_tps = len( tp_dict.keys() ), number_of_vectors= len(tp_dict), table=table)
+
+
+with open("../README.md", "w", encoding="utf8") as f:
+    f.write(readme)
+
+
+ 

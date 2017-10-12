@@ -3,7 +3,7 @@
 
 import os, codecs
 
-files = os.listdir(".")
+files = os.listdir("./../pYPKa_ZE")
 
 nbs = [f for f in files if f.lower().endswith(".ipynb")]
 
