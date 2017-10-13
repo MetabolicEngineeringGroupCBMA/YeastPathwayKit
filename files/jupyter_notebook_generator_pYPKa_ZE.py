@@ -64,15 +64,7 @@ for insertname, letter, pf, pr, comment in ( x.split(maxsplit=4) for x in tps if
 os.chdir(outpath)
         
 for insertname in sorted(tp_dict):
-    
-    
-    
-    
-    continue
 
-
-
-    
     newname = os.path.join(outpath, "pYPKa_ZE_{}.ipynb".format(insertname))
     
     if os.path.exists(newname): continue
@@ -138,9 +130,9 @@ with open("README_template.md", "r", encoding="utf8") as f:
 table = "| No. | TP | Promoter vector | Terminator vector | Jupyter nb |\n"        
 table+= "|-----|----|-----------------|-------------------|------------|\n"
 
-for no, insertname in enumerate(sorted(tp_dict)):
-    iu = "pYPKa_ZE/"+insertname
-    row = f"|{no} |{iu} | [pYPKa_Z_{iu}.gb](pYPKa_Z_{iu}.gb) | [pYPKa_E_{iu}.gb](pYPKa_E_{iu}.gb) | [nb](pYPKa_ZE_{iu}.ipynb) |\n"
+for no, ins in enumerate(sorted(tp_dict)):
+    fld = "pYPKa_ZE"
+    row = f"|{no} |{ins} | [pYPKa_Z_{ins}.gb]({fld}/pYPKa_Z_{ins}.gb) | [pYPKa_E_{ins}.gb]({fld}/pYPKa_E_{ins}.gb) | [nb]/({fld}/pYPKa_ZE_{ins}.ipynb) |\n"
     table+=row
 
 
