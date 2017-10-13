@@ -132,7 +132,7 @@ table+= "|-----|----|-----------------|-------------------|------------|\n"
 
 for no, ins in enumerate(sorted(tp_dict)):
     fld = "pYPKa_ZE"
-    row = f"|{no} |{ins} | [pYPKa_Z_{ins}.gb]({fld}/pYPKa_Z_{ins}.gb) | [pYPKa_E_{ins}.gb]({fld}/pYPKa_E_{ins}.gb) | [nb]/({fld}/pYPKa_ZE_{ins}.ipynb) |\n"
+    row = f"|{no} |{ins} | [pYPKa_Z_{ins}.gb]({fld}/pYPKa_Z_{ins}.gb) | [pYPKa_E_{ins}.gb]({fld}/pYPKa_E_{ins}.gb) | [nb]({fld}/pYPKa_ZE_{ins}.ipynb) |\n"
     table+=row
 
 
