@@ -30,7 +30,7 @@ cd notebooks
 #jupyter nbconvert **/*.ipynb
 
 #command to test all notebooks
-pytest --current-env --verbose --capture=no --nbval **/*.ipynb
+pytest --current-env --capture=no --nbval **/*.ipynb
 
 
 
