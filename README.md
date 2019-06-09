@@ -4,7 +4,7 @@ This table contain a total of 55 regulatory sequences cloned in a total of 110 v
 the [pYPKa](files/pYPKa.gb) vector. Inserts are intergenic sequences from _S. cerevisiae_ tandemly 
 expressed genes, so they can function as both promoters and terminators.
 
-[![Build Status](https://travis-ci.org/BjornFJohansson/pYPKa_ZE.svg?branch=master)](https://travis-ci.org/BjornFJohansson/pYPKa_ZE)
+[![Build Status](https://travis-ci.org/BjornFJohansson/pYPKa_ZE.svg)](https://travis-ci.org/BjornFJohansson/pYPKa_ZE)
 
 Sequences were cloned  in either the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)
 or the [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) site to function as promoters or terminators, respectively.
