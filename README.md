@@ -1,5 +1,3 @@
-# JupyterRunTest
-
 # Yeast pathway kit promoter and terminator vectors
 
 This table contain a total of 55 regulatory sequences cloned in a total of 55 vectors based on 
