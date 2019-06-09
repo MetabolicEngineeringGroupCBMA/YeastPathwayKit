@@ -7,7 +7,7 @@ expressed genes, so they can function as both promoters and terminators.
 Sequences were cloned  in either the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)
 or the [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) site to function as promoters or terminators, respectively.
 
-![files/pYPK_ZE.png](files/pYPK_ZE.png)
+![notebooks/figure_pYPK_ZE.png](files/pYPK_ZE.png)
 
 Plasmids with an insert in [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) are named
 pYPKa_Z_* (promoters) and plasmids with an insert in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) are named
