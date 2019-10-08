@@ -1,6 +1,6 @@
 LOCUS       pYPKa_Z_RPS19a          3685 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  <unknown description>
-            cSEGUID_l97SuXHlcPY5ZlH2j3JPae6zSO0_2018-05-15T07:42:40.032998.
+            cSEGUID_X6BxAcX4KUzScMcGb0RyNvAWwCc_2019-09-04T18:15:33.394213.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject: PRJNA43747
@@ -16,7 +16,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:559292"
                      /chromosome="XV"
      primer_bind     537..556
-                     /label="538_ScRPS19atpr_FspA"
+                     /label="652_ScRPS19atpf2"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1061..1080)
@@ -67,7 +67,7 @@ ORIGIN
       301 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
       361 aggttctgat cctcgagcat cttaagaatt cgtcccacgg tttgtctaga gcagccgaca
       421 atctggccaa tttcctgacg ggtaattttg atttgcatgc cgtccgggtg agtcatagcg
-      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac gcgcatgtta
+      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac ttaaatgtta
       541 actgaaatga aaatttcata tttacttttt tattgttact catttgtaat tcataaacta
       601 catacacttt caatcgtttc tttcaaacta cataattttt actggcgatc aataacgcat
       661 ttagttcata aagtgagtca aagttaacac tagaatattt gctacaccat caataggcta

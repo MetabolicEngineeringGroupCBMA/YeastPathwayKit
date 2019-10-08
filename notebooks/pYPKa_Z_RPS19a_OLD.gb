@@ -1,6 +1,6 @@
 LOCUS       pYPKa_Z_RPS19a          3685 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  <unknown description>
-            cSEGUID_DxlDnby_v4TXT2ecK1SKMKQDbIQ_2019-09-04T18:15:33.406530.
+            cSEGUID_l97SuXHlcPY5ZlH2j3JPae6zSO0_2018-05-15T07:42:40.032998.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject: PRJNA43747
@@ -9,32 +9,32 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     primer_bind     complement(558..578)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(558..580)
-                     /label="567_pCAPsAjiIF"
-     misc            581..602
-                     /label="568_pCAPsAjiIR"
-     primer_bind     583..602
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     source          618..1161
+     source          537..1080
                      /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
                      /strain="S288C"
                      /db_xref="taxon:559292"
                      /chromosome="XV"
-     primer_bind     618..637
-                     /label="652_ScRPS19atpf2"
+     primer_bind     537..556
+                     /label="538_ScRPS19atpr_FspA"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(1142..1161)
+     primer_bind     complement(1061..1080)
                      /label="651_ScRPS19atpr_PacI"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1115..1135)
+                     /note="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc            complement(1115..1137)
+                     /label="567_pCAPsAjiIF"
+     misc            1138..1159
+                     /label="568_pCAPsAjiIR"
+     primer_bind     1140..1159
+                     /note="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      rep_origin      1870
                      /direction=BOTH
      gene            complement(2629..3489)
@@ -67,18 +67,18 @@ ORIGIN
       301 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
       361 aggttctgat cctcgagcat cttaagaatt cgtcccacgg tttgtctaga gcagccgaca
       421 atctggccaa tttcctgacg ggtaattttg atttgcatgc cgtccgggtg agtcatagcg
-      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac gtcgaggaac
-      541 gccaggttgc ccactttctc actagtgacc tgcagccgac gtgccatctg tgcagacaaa
-      601 cgcatcagga tttaaatgtt aactgaaatg aaaatttcat atttactttt ttattgttac
-      661 tcatttgtaa ttcataaact acatacactt tcaatcgttt ctttcaaact acataatttt
-      721 tactggcgat caataacgca tttagttcat aaagtgagtc aaagttaaca ctagaatatt
-      781 tgctacacca tcaataggct agaccatagt tgaaaacttt cataataaat tcttccgttt
-      841 tcaatcttca tatactgtgt ctctaaccat gataccgtga cacaactaca tccgtacaca
-      901 tgtgacgttc gttcaacccg tacatttata taaaaccgtt ctggcggcct tttatttttt
-      961 tacatttctt atgatcggga ttgcagaacg ccgtgaaatt tttcaatgtg aggttcggcc
-     1021 ttgtttgcaa aagccctatt gagataccgg aaagatatag gtgaaatgaa gaaaactatg
-     1081 ggttgtatat ctaatacccc ggtgcgttta ttaatatttt agcttgaaag cgaagtgata
-     1141 cgatcgacaa atagagtaaa attaattaat ccggatttac ctgaatcaat tggcgaaatt
+      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac gcgcatgtta
+      541 actgaaatga aaatttcata tttacttttt tattgttact catttgtaat tcataaacta
+      601 catacacttt caatcgtttc tttcaaacta cataattttt actggcgatc aataacgcat
+      661 ttagttcata aagtgagtca aagttaacac tagaatattt gctacaccat caataggcta
+      721 gaccatagtt gaaaactttc ataataaatt cttccgtttt caatcttcat atactgtgtc
+      781 tctaaccatg ataccgtgac acaactacat ccgtacacat gtgacgttcg ttcaacccgt
+      841 acatttatat aaaaccgttc tggcggcctt ttattttttt acatttctta tgatcgggat
+      901 tgcagaacgc cgtgaaattt ttcaatgtga ggttcggcct tgtttgcaaa agccctattg
+      961 agataccgga aagatatagg tgaaatgaag aaaactatgg gttgtatatc taataccccg
+     1021 gtgcgtttat taatatttta gcttgaaagc gaagtgatac gatcgacaaa tagagtaaaa
+     1081 ttaattagtc gaggaacgcc aggttgccca ctttctcact agtgacctgc agccgacgtg
+     1141 ccatctgtgc agacaaacgc atcaggatat ccggatttac ctgaatcaat tggcgaaatt
      1201 ttttgtacga aatttcagcc acttcacagg cggttttcgc acgtacccat gcgctacgtt
      1261 cctggccctc ttcaaacagg cccagttcgc caataaaatc accctgattc agataggaga
      1321 ggatcatttc tttaccctct tcgtctttga tcagcactgc cacagagcct ttaacgatgt
