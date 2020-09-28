@@ -27,10 +27,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(664..990)
                      /locus_tag="YPL080C"
                      /note="hypothetical protein; conserved across S. cerevisiae
-                     strains; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_function: GO:0003674 - molecular_function
-                     [Evidence ND]; GO_process: GO:0008150 - biological_process
-                     [Evidence ND]"
+                     strains"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA80342.1"

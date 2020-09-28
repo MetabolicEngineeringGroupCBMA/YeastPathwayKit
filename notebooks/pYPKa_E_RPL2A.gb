@@ -37,12 +37,8 @@ FEATURES             Location/Qualifiers
                      /ncRNA_class="other"
                      /locus_tag="RUF23"
                      /product="RUF23"
-                     /note="ncRNA; RNA of Unknown Function; precise location of
-                     3' end uncertain; RUF23 may be longer than currently
-                     annotated; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_function: GO:0003674 - molecular_function
-                     [Evidence ND]; GO_process: GO:0008150 - biological_process
-                     [Evidence ND]"
+                     /note="RNA of Unknown Function; precise location of 3' end
+                     uncertain; RUF23 may be longer than currently annotated"
                      /db_xref="SGD:S000130133"
      primer_bind     complement(1270..1288)
                      /label="851_RPL2Atpr"
