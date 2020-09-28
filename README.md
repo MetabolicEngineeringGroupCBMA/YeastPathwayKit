@@ -1,10 +1,13 @@
 # Yeast pathway kit promoter and terminator vectors
 
-This table contain a total of 55 regulatory sequences cloned in a total of 110 vectors based on 
-the [pYPKa](files/pYPKa.gb) vector. Inserts are intergenic sequences from _S. cerevisiae_ tandemly 
+This table contain a total of 55 regulatory sequences cloned in a total of 110 vectors based on
+the [pYPKa](files/pYPKa.gb) vector. Inserts are intergenic sequences from _S. cerevisiae_ tandemly
 expressed genes, so they can function as both promoters and terminators.
 
-[![Build Status](https://travis-ci.org/BjornFJohansson/pYPKa_ZE.svg)](https://travis-ci.org/BjornFJohansson/pYPKa_ZE)
+[![test jupiter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/pYPKa_ZE/workflows/test%20jupiter%20notebooks/badge.svg)](
+https://github.com/MetabolicEngineeringGroupCBMA/pYPKa_ZE/actions?query=workflow%3A%22test+jupiter+notebooks%22
+)
+
 
 Sequences were cloned  in either the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)
 or the [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) site to function as promoters or terminators, respectively.
@@ -15,7 +18,7 @@ Plasmids with an insert in [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) ar
 pYPKa_Z_* (promoters) and plasmids with an insert in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) are named
 pYPKa_E_* (terminators).
 
-Each vector is described using [pydna](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0544-x) 
+Each vector is described using [pydna](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0544-x)
 in a [Jupyter notebook](http://nbviewer.jupyter.org).
 
 | No. | TP | Promoter vector | Terminator vector | Jupyter nb |
@@ -75,5 +78,3 @@ in a [Jupyter notebook](http://nbviewer.jupyter.org).
 |52 |TSA1 | [pYPKa_Z_TSA1.gb](notebooks/pYPKa_Z_TSA1.gb) | [pYPKa_E_TSA1.gb](notebooks/pYPKa_E_TSA1.gb) | [nb](notebooks/pYPKa_ZE_TSA1.ipynb) |
 |53 |UTR2 | [pYPKa_Z_UTR2.gb](notebooks/pYPKa_Z_UTR2.gb) | [pYPKa_E_UTR2.gb](notebooks/pYPKa_E_UTR2.gb) | [nb](notebooks/pYPKa_ZE_UTR2.ipynb) |
 |54 |ZEO1 | [pYPKa_Z_ZEO1.gb](notebooks/pYPKa_Z_ZEO1.gb) | [pYPKa_E_ZEO1.gb](notebooks/pYPKa_E_ZEO1.gb) | [nb](notebooks/pYPKa_ZE_ZEO1.ipynb) |
-
-
