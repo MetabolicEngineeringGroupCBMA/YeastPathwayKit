@@ -6,3 +6,6 @@ channels:
 dependencies:
 - python=3.8
 - pydna
+
+- pytest
+- nbval
