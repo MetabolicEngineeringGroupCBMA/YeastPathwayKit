@@ -1,6 +1,6 @@
 # pYPKa_Z_{tp} and pYPKa_E_{tp}
 
-This Jupyter notebook describe the construction of E. coli vectors [pYPKa_Z_{tp}](pYPKa_Z_{tp}.gb) and [pYPKa_E_{tp}](pYPKa_E_{tp}.gb). 
+This Jupyter notebook describe the construction of E. coli vectors [pYPKa_Z_{tp}](pYPKa_Z_{tp}.gb) and [pYPKa_E_{tp}](pYPKa_E_{tp}.gb).
 These two vectors share backbone and insert, but in the former, the insert is cloned using the restriction
 enzyme [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) while in the latter [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) is used.
 
@@ -10,7 +10,7 @@ Links to the sequence of each vector in Genbank format can be found at the botto
 
 ![pYPKa_Z and pYPKa_E](figure_pYPKa_ZE.png "pYPKa_Z or pYPKa_E plasmid")
 
-The Python package [pydna](https://pypi.python.org/pypi/pydna/) package is imported in the code cell below to provide 
+The Python package [pydna](https://pypi.python.org/pypi/pydna/) package is imported in the code cell below to provide
 the cloning functionality. There is a [publication](http://www.biomedcentral.com/1471-2105/16/142) describing pydna as well as
 [documentation](http://pydna.readthedocs.io/) available online. Pydna is developed on [Github](https://github.com/BjornFJohansson/pydna).
 
@@ -44,10 +44,12 @@ Always tell Genbank who you are, when using their web service.
 The template is downloaded from Genbank below.
 
     template = gb.nucleotide("{gbref}")
+    template.features = []
+    template
 
 The template is a {templatesize} bp linear DNA fragment.
 
-    template
+    template.add_feature(label="{tp}p", type="promoter")
 
 The insert has the sequence shown below.
 
@@ -158,16 +160,16 @@ Calculate cseguid checksums for the resulting plasmids for future reference.
 This checksum that uniquely describes a circular double stranded
 sequence. See this [blog post](https://ochsavidare.blogspot.com/2016/02/checksum-for-circular-biological.html) for more info.
 
-pYPKa_Z_{tp}.cseguid() should be {finalcseguidZ} 
+pYPKa_Z_{tp}.cseguid() should be {finalcseguidZ}
 
     print(pYPKa_Z_{tp}.cseguid())
     assert pYPKa_Z_{tp}.cseguid() == "{finalcseguidZ}"
 
 pYPKa_E_{tp}.cseguid() should be {finalcseguidE}
-    
+
     print(pYPKa_E_{tp}.cseguid())
     assert pYPKa_E_{tp}.cseguid() == "{finalcseguidE}"
-    
+
 The sequences are named based on the name of the cloned insert.
 
     pYPKa_Z_{tp}.locus = "pYPKa_Z_{tp}"[:16]
@@ -186,4 +188,3 @@ pYPKa_Z_{tp} is written to a local file:
 pYPKa_E_{tp} is written to a local file:
 
     pYPKa_E_{tp}.write("pYPKa_E_{tp}.gb")
-

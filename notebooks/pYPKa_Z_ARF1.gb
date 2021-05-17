@@ -15,6 +15,8 @@ FEATURES             Location/Qualifiers
                      /strain="S288C"
                      /db_xref="taxon:559292"
                      /chromosome="IV"
+     promoter        537..1057
+                     /label="ARF1p"
      primer_bind     537..557
                      /label="1006_fw521"
                      /ApEinfo_fwdcolor="#baffa3"

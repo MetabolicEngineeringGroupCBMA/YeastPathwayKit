@@ -23,16 +23,15 @@
 # - pYPKa.gb
 # - standard_primers.txt
 #
-#
 
 from pydna.myprimers import primerlist
 from pydna.dseqrecord import Dseqrecord
 from pydna.amplify import pcr
 from Bio.Restriction import ZraI, EcoRV
-from pygenome import sg
+from pygenome import saccharomyces_cerevisiae as sg
 import nbformat
 from nbconvert.preprocessors.execute import ExecutePreprocessor
-import notebook.transutils
+
 import notedown
 from pydna.readers import read
 import os
@@ -41,7 +40,9 @@ from pathlib import Path
 
 cwd = os.getcwd()
 
-outpath = Path(cwd).parent.joinpath("pYPKa_ZE")
+outpath = Path.cwd()/"nb"  # Path(cwd).parent.joinpath("pYPKa_ZE2")
+
+outpath.mkdir(parents=True, exist_ok=True)
 
 shutil.copy("pYPKa.gb", outpath)
 shutil.copy("standard_primers.txt", outpath)
@@ -70,7 +71,7 @@ for insertname, letter, pf, pr, comment in ( x.split(maxsplit=4) for x in tps if
     else:
         assert (old[0], old[1]) == (pf, pr)
 
-os.chdir(outpath)
+#os.chdir(outpath)
 
 for insertname in sorted(tp_dict):
 
@@ -79,10 +80,10 @@ for insertname in sorted(tp_dict):
     if os.path.exists(newname): continue
 
     try:
-        p = sg.stdgene[insertname]
+        p = sg.stdgenes[insertname]
     except KeyError:
         try:
-            p = sg.sysgene[insertname]
+            p = sg.sysgenes[insertname]
         except KeyError:
             raise ValueError('No gene by that name in S.c.')
 
@@ -93,10 +94,10 @@ for insertname in sorted(tp_dict):
     fp = lp[int(pf)]
     rp = lp[int(pr)]
 
-    gbref  = p.promoter.description
-    gblink = p.cds.id
+    gbref  = p.promoter().description
+    gblink = p.cds().id
 
-    template = Dseqrecord(p.promoter)
+    template = Dseqrecord(p.promoter())
 
     templatesize = len(template)
     insertseguid = template.seguid()
@@ -131,24 +132,24 @@ for insertname in sorted(tp_dict):
     with open(newname, 'wt') as f:
         nbformat.write(nb, f)
 
-os.chdir(cwd)
+#os.chdir(cwd)
 
-with open("README_template.md", "r", encoding="utf8") as f:
-    t=f.read()
+# with open("README_template.md", "r", encoding="utf8") as f:
+#     t=f.read()
 
-table = "| No. | TP | Promoter vector | Terminator vector | Jupyter nb |\n"
-table+= "|-----|----|-----------------|-------------------|------------|\n"
+# table = "| No. | TP | Promoter vector | Terminator vector | Jupyter nb |\n"
+# table+= "|-----|----|-----------------|-------------------|------------|\n"
 
-for no, ins in enumerate(sorted(tp_dict)):
-    fld = "pYPKa_ZE"
-    row = f"|{no} |{ins} | [pYPKa_Z_{ins}.gb]({fld}/pYPKa_Z_{ins}.gb) | [pYPKa_E_{ins}.gb]({fld}/pYPKa_E_{ins}.gb) | [nb]({fld}/pYPKa_ZE_{ins}.ipynb) |\n"
-    table+=row
-
-
-readme = t.format(number_of_tps = len( tp_dict.keys() ), number_of_vectors= len(tp_dict), table=table)
+# for no, ins in enumerate(sorted(tp_dict)):
+#     fld = "pYPKa_ZE"
+#     row = f"|{no} |{ins} | [pYPKa_Z_{ins}.gb]({fld}/pYPKa_Z_{ins}.gb) | [pYPKa_E_{ins}.gb]({fld}/pYPKa_E_{ins}.gb) | [nb]({fld}/pYPKa_ZE_{ins}.ipynb) |\n"
+#     table+=row
 
 
-with open("../README.md", "w", encoding="utf8") as f:
-    f.write(readme)
+# readme = t.format(number_of_tps = len( tp_dict.keys() ), number_of_vectors= len(tp_dict), table=table)
+
+
+# with open("../README.md", "w", encoding="utf8") as f:
+#     f.write(readme)
 
 
