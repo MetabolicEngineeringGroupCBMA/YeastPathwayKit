@@ -1,7 +1,0 @@
-pYPK0-ScTEF1_PacI-PsXYL1(YIPDR7)-ScTDH3_PACI-PsXYL2-ScPGI1_PacI-ScXK-ScFBA1_PacI-ScTAL1-ScPDC1_PacI
-
-
-ScTEF1_PacI-PsXYL1(YIPDR7)-ScTDH3_PACI
-                           ScTDH3_PACI-PsXYL2-ScPGI1_PacI
-                                              ScPGI1_PacI-ScXK-ScFBA1_PacI
-                                                               ScFBA1_PacI-ScTAL1-ScPDC1_PacI
