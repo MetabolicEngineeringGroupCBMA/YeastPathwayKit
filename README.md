@@ -7,7 +7,7 @@ expressed genes, so the same DNA fragment can function as both a promoter and a 
 
 Promoters were cloned in the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) restriction site while terminators were cloned in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html).
 
-![pYPKa_ZE](ndocs/figure_pYPKa_ZE.png)
+![pYPKa_ZE](docs/figure_pYPKa_ZE.png)
 
 Plasmids with an insert in ZraI are named **pYPKa_Z_*.gb** and plasmids with an insert in EcoRV are named  **pYPKa_E_*.gb**.
 
