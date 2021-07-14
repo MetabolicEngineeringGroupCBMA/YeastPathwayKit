@@ -7,7 +7,7 @@ Promoters and terminator are DNA fragments representing intergenic sequences fro
 expressed genes, so the same DNA fragment can function as both a promoter and a terminator.
 
 Fragments to be used as promoters were cloned in the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) restriction site
-while fragments to be used as terminatorswere cloned in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html).
+while fragments to be used as terminators were cloned in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html).
 
 ![pYPKa_ZE](docs/figure_pYPKa_ZE.png)
 
