@@ -1,11 +1,13 @@
 # Yeast pathway kit promoter and terminator vectors
 
-This repository contain [pYPKa](sequences/pYPKa.gb) plasmids with a total of 55 promoters and 57 terminators (2021-07-14).
+This repository contain [pYPKa](sequences/pYPKa.gb) plasmids with a total of 55 promoters and 57 terminators (2021-07-14)
+in a total of 55 + 57 = 112 vectors.
 
-Promoters and terminator are intergenic sequences from _S. cerevisiae_ tandemly
+Promoters and terminator are DNA fragments representing intergenic sequences from _S. cerevisiae_ tandemly
 expressed genes, so the same DNA fragment can function as both a promoter and a terminator.
 
-Promoters were cloned in the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) restriction site while terminators were cloned in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html).
+Fragments to be used as promoters were cloned in the [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html) restriction site
+while fragments to be used as terminatorswere cloned in [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html).
 
 ![pYPKa_ZE](docs/figure_pYPKa_ZE.png)
 
