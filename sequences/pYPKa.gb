@@ -1,4 +1,4 @@
-LOCUS       pYPKa                   3128 bp    DNA     circular     13-JUL-2021
+LOCUS       pYPKa                   3128 bp    DNA     circular     14-JUL-2021
 DEFINITION  Product_568_pCAPsAjiIR (22-mer)_567_pCAPsAjiIF (23-mer)
             cSEGUID_aV1eIrzOiCjvw01yvKkxDXHKLMk_2015-05-08T16:41:28.034624
 ACCESSION   3128bp TmU_6uVdgKq5aQhTpHux7dVk9J8
@@ -7,6 +7,7 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  . .
 COMMENT     
+COMMENT     
 COMMENT     ApEinfo:methylated:0
 FEATURES             Location/Qualifiers
      CDS             complement(join(3081..3128,1..585))
@@ -14,7 +15,23 @@ FEATURES             Location/Qualifiers
                      /label="crpS"
                      /ApEinfo_label="crpS"
                      /ApEinfo_fwdcolor="cyan"
-                     /ApEinfo_revcolor="green"
+                     /ApEinfo_revcolor="#b6e9d0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    304..544
+                     /locus_tag="pink"
+                     /label="pink"
+                     /ApEinfo_label="pink"
+                     /ApEinfo_fwdcolor="#fc0fc0"
+                     /ApEinfo_revcolor="#db4cd1"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1..124
+                     /locus_tag="gray"
+                     /label="gray"
+                     /ApEinfo_label="gray"
+                     /ApEinfo_fwdcolor="#828282"
+                     /ApEinfo_revcolor="#828282"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
      primer_bind     complement(196..216)
@@ -189,22 +206,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_label="yellow"
                      /ApEinfo_fwdcolor="#ffff00"
                      /ApEinfo_revcolor="green"
-                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
-                     -0.5} {} 0} width 5 offset 0"
-     misc_feature    30..124
-                     /locus_tag="gray"
-                     /label="gray"
-                     /ApEinfo_label="gray"
-                     /ApEinfo_fwdcolor="#828282"
-                     /ApEinfo_revcolor="#828282"
-                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
-                     -0.5} {} 0} width 5 offset 0"
-     misc_feature    304..515
-                     /locus_tag="pink"
-                     /label="pink"
-                     /ApEinfo_label="pink"
-                     /ApEinfo_fwdcolor="#fc0fc0"
-                     /ApEinfo_revcolor="#db4cd1"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
 ORIGIN

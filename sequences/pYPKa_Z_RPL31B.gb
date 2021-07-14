@@ -22,7 +22,15 @@ FEATURES             Location/Qualifiers
                      /label="crpS"
                      /ApEinfo_label="crpS"
                      /ApEinfo_fwdcolor="cyan"
-                     /ApEinfo_revcolor="green"
+                     /ApEinfo_revcolor="#b6e9d0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1..124
+                     /locus_tag="gray"
+                     /label="gray"
+                     /ApEinfo_label="gray"
+                     /ApEinfo_fwdcolor="#828282"
+                     /ApEinfo_revcolor="#828282"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
      primer_bind     1..29
@@ -31,14 +39,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_label="577"
                      /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
-                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
-                     -0.5} {} 0} width 5 offset 0"
-     misc_feature    30..124
-                     /locus_tag="gray"
-                     /label="gray"
-                     /ApEinfo_label="gray"
-                     /ApEinfo_fwdcolor="#828282"
-                     /ApEinfo_revcolor="#828282"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
      misc_feature    125..165
@@ -153,7 +153,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-     misc_feature    767..978
+     misc_feature    767..1007
                      /locus_tag="pink"
                      /label="pink"
                      /ApEinfo_label="pink"
