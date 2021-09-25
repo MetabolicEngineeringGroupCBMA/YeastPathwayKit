@@ -24,7 +24,7 @@
 # - standard_primers.txt
 #
 
-from pydna.myprimers import primerlist
+from pydna.myprimers import PrimerList
 from pydna.dseqrecord import Dseqrecord
 from pydna.amplify import pcr
 from Bio.Restriction import ZraI, EcoRV
@@ -58,7 +58,7 @@ with open("tp_list.txt", "r") as f:
 
 tp_dict = {}
 
-lp = primerlist()
+lp = PrimerList()
 
 
 
