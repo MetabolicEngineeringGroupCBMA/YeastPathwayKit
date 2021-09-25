@@ -7,8 +7,8 @@ from Bio.Restriction import ZraI, EcoRV, AjiI
 from pydna.readers import read
 from pydna.genbank import genbank
 import csv
-from pydna.myprimers import primerlist
-p = primerlist()
+from pydna.myprimers import PrimerList
+p = PrimerList()
 
 pYPKa = read("pYPKa.gb")
 
@@ -19,7 +19,7 @@ pYPKa_E = pYPKa.linearize(EcoRV)
 bbdict = {"Z": pYPKa_Z, "A": pYPKa_A, "E": pYPKa_E}
 fdict = {"Z": "promoter", "A": "gene", "E": "terminator"}
 
-csvfile = "promoter_list_001.csv"
+csvfile = "promoter_list_002.csv"
 with open(csvfile) as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
