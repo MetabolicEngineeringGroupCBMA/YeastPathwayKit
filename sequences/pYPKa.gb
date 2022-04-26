@@ -1,11 +1,13 @@
 LOCUS       pYPKa                   3128 bp    DNA        circular     26-APR-2022
-VERSION     .
-DBLINK      .
 KEYWORDS    .
 SOURCE      .
   ORGANISM  . .
 COMMENT     cSEGUID aV1eIrzOiCjvw01yvKkxDXHKLMk
-COMMENT     
+COMMENT     Linearize with ZraI for cloning a promoter
+COMMENT     Linearize with AjiI for cloning a gene
+COMMENT     Linearize with EcoRV for cloning a terminator
+COMMENT     Note that this plasmid can only be maintained in a adenyl cyclase
+            negative (CYA-) E. coli
 COMMENT     ApEinfo:methylated:0
 FEATURES             Location/Qualifiers
      CDS             complement(join(3081..3128,1..585))
@@ -400,5 +402,5 @@ ORIGIN
      2941 gagtgcacca tagatcctga ggatcggggt gataaatcag tctgcgccac atcgggggaa
      3001 acaaaatggc gcgagatcta aaaaaaaagg ctccaaaagg agcctttcgc gctaccaggt
      3061 aacgcgccac tccgacggga ttaacgagtg ccgtaaacga cgatggtttt accgtgtgcg
-     3121 gagatcag     
+     3121 gagatcag
 //
