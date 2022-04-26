@@ -19,7 +19,7 @@ pYPKa_E = pYPKa.linearize(EcoRV)
 bbdict = {"Z": pYPKa_Z, "A": pYPKa_A, "E": pYPKa_E}
 fdict = {"Z": "promoter", "A": "gene", "E": "terminator"}
 
-csvfile = "promoter_list_002.csv"
+csvfile = "promoter_list_003.csv"
 with open(csvfile) as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
@@ -72,7 +72,10 @@ with open(csvfile) as csvfile:
         plasmid.accession = "accession"
         plasmid.annotations["date"] = "13-JUL-2021"
         plasmid.stamp()
-        
+
+
+        # plasmid.annotations["comment"] += 
+
         plasmid.write(pname+".gb")
 
         #from pydna.editor import ape
