@@ -1,23 +1,26 @@
-LOCUS       pYPKa_Z_ENO2            3662 bp    DNA     circular UNK 13-JUL-2021
-DEFINITION  pYPKa_Z_ENO2 cSEGUID_ZacP4iOqBVacyRUBX_EA3XXyE20.
+LOCUS       pYPKa_Z_ENO2            3662 bp    DNA        circular     28-APR-2022
 ACCESSION   accession
 VERSION     accession
 DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
 SOURCE      .
-  ORGANISM  .
-            .
+  ORGANISM  . .
+COMMENT     cSEGUID: ZacP4iOqBVacyRUBX_EA3XXyE20
+COMMENT     ApEinfo:methylated:0
 FEATURES             Location/Qualifiers
      promoter        169..702
                      /name="ENO2_promoter"
+                     /fp="411_ScENO2tpf	TTAAATACGCGGCGTTATGTCAC"
+                     /rp="660_ScENO2tpr_PacI	taattaaTTATTATTGTATGTTATAGTATTAGTT
+                     G CTTG"
+                     /reference="BK006934.2 REGION: 450807..451326"
+                     /locus_tag="ENO2_promoter"
+                     /label="ENO2_promoter"
                      /ApEinfo_label="ENO2_promoter"
                      /ApEinfo_fwdcolor="#FC6600"
                      /ApEinfo_revcolor="#7C4700"
-                     /fp="411_ScENO2tpf	TTAAATACGCGGCGTTATGTCAC"
-                     /rp="660_ScENO2tpr_PacI	taattaaTTATTATTGTATGTTATAGTATTAGTTG
-                     CTTG"
-                     /reference="BK006934.2 REGION: 450807..451326"
-                     /label="ft534"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(join(3615..3662,1..168,703..1119))
                      /locus_tag="crpS"
                      /label="crpS"
@@ -64,33 +67,67 @@ FEATURES             Location/Qualifiers
                      /strain="S288C"
                      /db_xref="taxon:559292"
                      /chromosome="VIII"
+                     /locus_tag="source:Saccharomyces cerevisiae S288C"
+                     /label="source:Saccharomyces cerevisiae S288C"
+                     /ApEinfo_label="source:Saccharomyces cerevisiae S288C"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+                     /ApEinfo_hidden
      primer_bind     175..191
+                     /locus_tag="411_ScENO2tpf"
                      /label="411_ScENO2tpf"
+                     /ApEinfo_label="411_ScENO2tpf"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      gene            complement(183..521)
                      /locus_tag="YHR173C"
+                     /label="YHR173C"
+                     /ApEinfo_label="YHR173C"
+                     /ApEinfo_fwdcolor="#00D95A"
+                     /ApEinfo_revcolor="#00D95A"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      mRNA            complement(183..521)
-                     /locus_tag="YHR173C"
                      /product="hypothetical protein"
+                     /locus_tag="YHR173C(1)"
+                     /label="YHR173C(1)"
+                     /ApEinfo_label="YHR173C"
+                     /ApEinfo_fwdcolor="#008065"
+                     /ApEinfo_revcolor="#008065"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(183..521)
-                     /locus_tag="YHR173C"
                      /experiment="EXISTENCE:direct assay:GO:0000324 fungal-type
                      vacuole [PMID:26928762]"
                      /note="hypothetical protein; expressed at both mRNA and
                      protein levels; SWAT-GFP and mCherry fusion proteins
                      localize to the vacuole"
-                     /codon_start=1
+                     /codon_start="1"
                      /product="hypothetical protein"
                      /protein_id="DAA35091.1"
                      /db_xref="SGD:S000001216"
-                     /translation="MLFFFIYAWCHLSHTILQPSTKIQMIVRSKPESNGEKKLMNHDEP
-                     NDQYNQRNYPSEVYADLVSHFMNFAYGKVHESGLQKKGVRCVDVSISGCQFWNGIPLSA
-                     SWCTSLVT"
+                     /translation="MLFFFIYAWCHLSHTILQPSTKIQMIVRSKPESNGEKKLMNHDE
+                     PNDQYNQRNYPSEVYADLVSHFMNFAYGKVHESGLQKKGVRCVDVSISGCQFWNGIPL
+                     SASWCTSLVT"
+                     /locus_tag="YHR173C(2)"
+                     /label="YHR173C(2)"
+                     /ApEinfo_label="YHR173C"
+                     /ApEinfo_fwdcolor="#13AAFE"
+                     /ApEinfo_revcolor="#13AAFE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      primer_bind     complement(664..694)
+                     /locus_tag="660_ScENO2tpr_PacI"
                      /label="660_ScENO2tpr_PacI"
+                     /ApEinfo_label="660_ScENO2tpr_PacI"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      primer_bind     703..727
                      /locus_tag="468"
                      /label="468"
@@ -197,8 +234,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="gray50"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-     rep_origin      1485
-                     /direction=BOTH
+     rep_origin      1485..1485
+                     /direction="BOTH"
                      /locus_tag="rep_origin"
                      /label="rep_origin"
                      /ApEinfo_label="rep_origin"
@@ -217,8 +254,8 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             complement(2244..3104)
                      /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
+                     /codon_start="1"
+                     /transl_table="11"
                      /db_xref="GI:2769263"
                      /db_xref="GOA:Q79DR3"
                      /db_xref="HSSP:P62593"
@@ -226,12 +263,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="InterPro:IPR001466"
                      /db_xref="InterPro:IPR012338"
                      /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
                      /gene="bla"
                      /protein_id="CAA04868.1"
                      /locus_tag="beta-lactamase"
@@ -311,5 +348,5 @@ ORIGIN
      3481 accatagatc ctgaggatcg gggtgataaa tcagtctgcg ccacatcggg ggaaacaaaa
      3541 tggcgcgaga tctaaaaaaa aaggctccaa aaggagcctt tcgcgctacc aggtaacgcg
      3601 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
-     3661 ag
+     3661 ag     
 //
