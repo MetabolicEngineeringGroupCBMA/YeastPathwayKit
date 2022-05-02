@@ -16,7 +16,7 @@ Plasmids with an insert in ZraI are named **pYPKa_Z_*.gb** and plasmids with an 
 
 The sequences were assembled programmatically using [pydna](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0544-x).
 
-The python file `plasmid_script.py` containes a script that assembles plasmids
+The python file `plasmid_script.py` contains a script that assembles plasmids
 using data in a set of csv files:
 
 - [promoter_list_001.csv](sequences/promoter_list_001.csv)
