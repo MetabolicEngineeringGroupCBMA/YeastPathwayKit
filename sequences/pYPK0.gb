@@ -1,14 +1,13 @@
-LOCUS       pYPK0                   5762 bp    DNA     circular SYN 05-OCT-2022
+LOCUS       pYPK0                   5762 bp    DNA     circular     17-OCT-2022
 DEFINITION  pYPK0
             cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2015-05-09T06:06:22.550085.
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
 SOURCE      
-  ORGANISM  . .
-            .
-COMMENT     Annotated with pLannotate v1.2.0.
-            ApEinfo:methylated:0
+  ORGANISM  . . .
+COMMENT     Linearize with ZraI or NotI or AatII
+COMMENT     ApEinfo:methylated:0
 FEATURES             Location/Qualifiers
      gene            complement(join(5715..5762,1..585))
                      /gene="crp"
@@ -21,17 +20,17 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             complement(join(5715..5762,1..585))
                      /product="catabolite gene activator protein"
-                     /codon_start=1
-                     /transl_table=11
+                     /codon_start="1"
+                     /transl_table="11"
                      /note="artificially mutated crp; cyclic AMP receptor
                      protein"
                      /db_xref="GI:2769262"
                      /experiment="experimental evidence, no additional details
                      recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIV
+                     KGSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKK
+                     FRQLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTH
+                     PDGMQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
                      /gene="crp"
                      /protein_id="CAA04867.1"
                      /locus_tag="artificially mutated crp; cyclic AMP receptor
@@ -54,8 +53,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#FED2EA"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-     rep_origin      951
-                     /direction=BOTH
+     rep_origin      951..951
+                     /direction="BOTH"
                      /locus_tag="feat1"
                      /label="feat1"
                      /ApEinfo_label="feat1"
@@ -101,116 +100,200 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      rep_origin      complement(3318..4198)
                      /note="pLannotate"
-                     /label="2μ ori"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="rep_origin"
+                     /locus_tag="2μ ori"
+                     /label="2μ ori"
+                     /ApEinfo_label="2μ ori"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(4344..5204)
                      /note="pLannotate"
-                     /label="AmpR"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="AmpR(1)"
+                     /label="AmpR(1)"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="#00D95A"
+                     /ApEinfo_revcolor="#00D95A"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      rep_origin      complement(951..1539)
                      /note="pLannotate"
-                     /label="ori"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="rep_origin"
+                     /locus_tag="ori"
+                     /label="ori"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#008065"
+                     /ApEinfo_revcolor="#008065"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      promoter        complement(5205..5309)
                      /note="pLannotate"
-                     /label="AmpR promoter"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="promoter"
+                     /locus_tag="AmpR promoter"
+                     /label="AmpR promoter"
+                     /ApEinfo_label="AmpR promoter"
+                     /ApEinfo_fwdcolor="#13AAFE"
+                     /ApEinfo_revcolor="#13AAFE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(1695..2498)
                      /note="pLannotate"
-                     /label="URA3"
                      /database="snapgene"
                      /identity="99.6"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="URA3(1)"
+                     /label="URA3(1)"
+                     /ApEinfo_label="URA3"
+                     /ApEinfo_fwdcolor="#3A93FE"
+                     /ApEinfo_revcolor="#3A93FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(join(5718..5762,1..585))
                      /note="pLannotate"
-                     /label="crp"
                      /database="swissprot"
                      /identity="99.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="crp"
+                     /label="crp"
+                     /ApEinfo_label="crp"
+                     /ApEinfo_fwdcolor="#2D64FE"
+                     /ApEinfo_revcolor="#2D64FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      promoter        complement(2499..2714)
                      /note="pLannotate"
-                     /label="URA3 promoter"
                      /database="snapgene"
                      /identity="99.5"
                      /match_length="100.0"
                      /fragment="False"
                      /other="promoter"
+                     /locus_tag="URA3 promoter"
+                     /label="URA3 promoter"
+                     /ApEinfo_label="URA3 promoter"
+                     /ApEinfo_fwdcolor="#00891F"
+                     /ApEinfo_revcolor="#00891F"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             2739..3164
                      /note="pLannotate"
-                     /label="RAF1 (fragment)"
                      /database="swissprot"
                      /identity="93.0"
                      /match_length="78.5"
                      /fragment="True"
                      /other="CDS"
+                     /locus_tag="RAF1 (fragment)"
+                     /label="RAF1 (fragment)"
+                     /ApEinfo_label="RAF1 (fragment)"
+                     /ApEinfo_fwdcolor="#00C6C3"
+                     /ApEinfo_revcolor="#00C6C3"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      misc_feature    666..765
                      /note="pLannotate"
-                     /label="bom (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="70.9"
                      /fragment="True"
                      /other="misc_feature"
+                     /locus_tag="bom (fragment)"
+                     /label="bom (fragment)"
+                     /ApEinfo_label="bom (fragment)"
+                     /ApEinfo_fwdcolor="#ccff6b"
+                     /ApEinfo_revcolor="#ccff6b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      terminator      complement(5654..5681)
                      /note="pLannotate"
-                     /label="fd terminator (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="70.0"
                      /fragment="True"
                      /other="terminator"
+                     /locus_tag="fd terminator (fragment)"
+                     /label="fd terminator (fragment)"
+                     /ApEinfo_label="fd terminator (fragment)"
+                     /ApEinfo_fwdcolor="#00D0FA"
+                     /ApEinfo_revcolor="#00D0FA"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      misc_feature    5537..5586
                      /note="pLannotate"
-                     /label="bom (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="35.5"
                      /fragment="True"
                      /other="misc_feature"
+                     /locus_tag="bom (fragment)(1)"
+                     /label="bom (fragment)(1)"
+                     /ApEinfo_label="bom (fragment)"
+                     /ApEinfo_fwdcolor="#ccff6b"
+                     /ApEinfo_revcolor="#ccff6b"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      promoter        complement(646..665)
                      /note="pLannotate"
-                     /label="T5 promoter (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="44.4"
                      /fragment="True"
                      /other="promoter"
+                     /locus_tag="T5 promoter (fragment)"
+                     /label="T5 promoter (fragment)"
+                     /ApEinfo_label="T5 promoter (fragment)"
+                     /ApEinfo_fwdcolor="#00D308"
+                     /ApEinfo_revcolor="#00D308"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             5400..5435
                      /note="pLannotate"
-                     /label="rop (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="18.8"
                      /fragment="True"
                      /other="CDS"
+                     /locus_tag="rop (fragment)"
+                     /label="rop (fragment)"
+                     /ApEinfo_label="rop (fragment)"
+                     /ApEinfo_fwdcolor="#2D64FE"
+                     /ApEinfo_revcolor="#2D64FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      rep_origin      complement(4209..4250)
                      /note="pLannotate"
-                     /label="M13 ori (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="8.2"
                      /fragment="True"
                      /other="rep_origin"
+                     /locus_tag="M13 ori (fragment)"
+                     /label="M13 ori (fragment)"
+                     /ApEinfo_label="M13 ori (fragment)"
+                     /ApEinfo_fwdcolor="#EE92FE"
+                     /ApEinfo_revcolor="#EE92FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
 ORIGIN
         1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
        61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
@@ -308,5 +391,5 @@ ORIGIN
      5581 accatagatc ctgaggatcg gggtgataaa tcagtctgcg ccacatcggg ggaaacaaaa
      5641 tggcgcgaga tctaaaaaaa aaggctccaa aaggagcctt tcgcgctacc aggtaacgcg
      5701 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
-     5761 ag
+     5761 ag     
 //
