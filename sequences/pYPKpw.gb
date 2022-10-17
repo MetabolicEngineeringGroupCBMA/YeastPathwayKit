@@ -1,4 +1,4 @@
-LOCUS       pYPKpw                  5603 bp    DNA        circular     26-APR-2022
+LOCUS       pYPKpw                  5603 bp    DNA     circular     05-OCT-2022
 VERSION     .
 KEYWORDS    .
   ORGANISM  . .
@@ -8,7 +8,6 @@ COMMENT     cSEGUID WeyovdMmqwA4bc9EqEwUDmbo3Lg
 COMMENT     Features: deltaCRP pUC URA3 2mu amp
 COMMENT     The CRPs gene is inactive, so this vector can be maintained in any
             E. coli strain
-COMMENT     
 COMMENT     ApEinfo:methylated:0
 FEATURES             Location/Qualifiers
      CDS             complement(join(5559..5603,1..426))
@@ -647,7 +646,7 @@ FEATURES             Location/Qualifiers
 ORIGIN
         1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
        61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
-      121 tggtgacgtc atgcgcatga tatcttcaca ggcggttttc gcacgtaccc atgcgctacg
+      121 tggtGACGTC ATGCGCATGA TATCttcaca ggcggttttc gcacgtaccc atgcgctacg
       181 ttcctggccc tcttcaaaca ggcccagttc gccaataaaa tcaccctgat tcagatagga
       241 gaggatcatt tctttaccct cttcgtcttt gatcagcact gccacagagc ctttaacgat
       301 gtagtacagc gtttccgctt tttcaccctg gtgaataagc gtgctcttgg atgggtactt

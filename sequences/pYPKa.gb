@@ -3,6 +3,10 @@ KEYWORDS    .
 SOURCE      .
   ORGANISM  . .
 COMMENT     cSEGUID aV1eIrzOiCjvw01yvKkxDXHKLMk
+COMMENT     PCR with 577 578 -> 544 bp
+COMMENT	    PCR with 577 467 -> 255 bp
+COMMENT     PCR with 468 578 -> 376 bp
+COMMENT     PCR with 467 468 -> 87 bp
 COMMENT     Linearize with ZraI for cloning a promoter
 COMMENT     Linearize with AjiI for cloning a gene
 COMMENT     Linearize with EcoRV for cloning a terminator
