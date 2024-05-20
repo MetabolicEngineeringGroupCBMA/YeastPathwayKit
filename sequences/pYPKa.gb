@@ -2,7 +2,6 @@ LOCUS       pYPKa                   3128 bp    DNA        circular     26-APR-20
 KEYWORDS    .
 SOURCE      .
   ORGANISM  . .
-COMMENT     cSEGUID aV1eIrzOiCjvw01yvKkxDXHKLMk
 COMMENT     PCR with 577 578 -> 544 bp
 COMMENT	    PCR with 577 467 -> 255 bp
 COMMENT     PCR with 468 578 -> 376 bp
