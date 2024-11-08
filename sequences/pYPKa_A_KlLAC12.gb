@@ -3,9 +3,10 @@ DEFINITION  .
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=V7P0v5eIdxeg99fFwmXbQbE8t0M 2024-06-11T18:40:14
 FEATURES             Location/Qualifiers
      primer_bind     581..598
                      /note="pfw1764"

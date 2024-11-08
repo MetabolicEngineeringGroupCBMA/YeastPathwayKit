@@ -3,9 +3,10 @@ DEFINITION  pYPKa_Z_TDH1_rev cSEGUID_D8abxjpwv03qaCdXDn6T8JZYjR4.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=a8VCOPXUFejyi4ZwC0_nQr6lH6w 2024-06-11T18:27:53
 FEATURES             Location/Qualifiers
      terminator      complement(282..314)
                      /locus_tag="3' part of coli chr"

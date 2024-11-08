@@ -4,10 +4,11 @@ ACCESSION   accession
 VERSION     accession
 DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
 COMMENT     pydna cSEGUID UXk2heGdnSYhXBiHQW5wWwjxLP0 2023-04-15T16:34:46
+            pydna cdseguid=gqePNhRKtErQDuEITSHhPbIoMA8 2024-06-11T18:28:04
 FEATURES             Location/Qualifiers
      source          250..735
                      /organism="Saccharomyces cerevisiae S288C"

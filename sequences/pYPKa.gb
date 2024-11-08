@@ -1,17 +1,22 @@
-LOCUS       pYPKa                   3128 bp    DNA        circular     26-APR-2022
+LOCUS       pYPKa                   3128 bp    DNA     circular UNK 26-APR-2022
+DEFINITION  .
+ACCESSION   pYPKa
+VERSION     pYPKa
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  . .
+            .
 COMMENT     PCR with 577 578 -> 544 bp
-COMMENT	    PCR with 577 467 -> 255 bp
-COMMENT     PCR with 468 578 -> 376 bp
-COMMENT     PCR with 467 468 -> 87 bp
-COMMENT     Linearize with ZraI for cloning a promoter
-COMMENT     Linearize with AjiI for cloning a gene
-COMMENT     Linearize with EcoRV for cloning a terminator
-COMMENT     Note that this plasmid can only be maintained in a adenyl cyclase
+            PCR with 577 467 -> 255 bp
+            PCR with 468 578 -> 376 bp
+            PCR with 467 468 -> 87 bp
+            Linearize with ZraI for cloning a promoter
+            Linearize with AjiI for cloning a gene
+            Linearize with EcoRV for cloning a terminator
+            Note that this plasmid can only be maintained in a adenyl cyclase
             negative (CYA-) E. coli
-COMMENT     ApEinfo:methylated:0
+            ApEinfo:methylated:0
+            pydna cdseguid=IFLMpKpCGZio0R0YkGSfqPaKKiw 2024-06-11T18:53:45
 FEATURES             Location/Qualifiers
      CDS             complement(join(3081..3128,1..585))
                      /locus_tag="crpS"
@@ -31,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#00D95A"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-                     /ApEinfo_hidden
+                     /ApEinfo_hidden=""
      CDS             complement(join(3081..3128,1..585))
                      /gene="crp"
                      /old_locus_tag="D616_p132001"
@@ -39,15 +44,15 @@ FEATURES             Location/Qualifiers
                      sequence:RefSeq:NP_312235.1"
                      /note="Derived by automated computational analysis using
                      gene prediction method: Protein Homology."
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /product="cAMP-activated global transcriptional regulator
                      CRP"
                      /protein_id="WP_031942540.1"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIV
-                     KGSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKK
-                     FRQLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTH
-                     PDGMQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
                      /locus_tag="HXC71_RS00005(1)"
                      /label="HXC71_RS00005(1)"
                      /ApEinfo_label="HXC71_RS00005"
@@ -55,7 +60,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#008065"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-                     /ApEinfo_hidden
+                     /ApEinfo_hidden=""
      primer_bind     complement(196..216)
                      /locus_tag="567_pCAPsAjiIF"
                      /label="567_pCAPsAjiIF"
@@ -177,23 +182,23 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#13AAFE"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-                     /ApEinfo_hidden
+                     /ApEinfo_hidden=""
      CDS             complement(1710..2570)
                      /old_locus_tag="D616_p132002"
                      /inference="COORDINATES: similar to AA
                      sequence:RefSeq:WP_032489893.1"
                      /note="Derived by automated computational analysis using
                      gene prediction method: Protein Homology."
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /product="class A broad-spectrum beta-lactamase TEM-116"
                      /protein_id="WP_000027050.1"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
-                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
-                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
-                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
-                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
-                     EIGASLIKHW"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
                      /locus_tag="HXC71_RS00010(1)"
                      /label="HXC71_RS00010(1)"
                      /ApEinfo_label="HXC71_RS00010"
@@ -201,7 +206,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#3A93FE"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-                     /ApEinfo_hidden
+                     /ApEinfo_hidden=""
      CDS             complement(1710..2570)
                      /note="pLannotate"
                      /database="snapgene"
@@ -355,9 +360,9 @@ FEATURES             Location/Qualifiers
 ORIGIN
         1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
        61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
-      121 tggttgtttt gccagattca gcagagtctg tgcaatgcgg ccgctGACGT Cgaggaacgc
-      181 caggttgccc actttctcac tagtgacctg cagccGACGT Gccatctgtg cagacaaacg
-      241 catcagGATA TCcggattta cctgaatcaa ttggcgaaat tttttgtacg aaatttcagc
+      121 tggttgtttt gccagattca gcagagtctg tgcaatgcgg ccgctgacgt cgaggaacgc
+      181 caggttgccc actttctcac tagtgacctg cagccgacgt gccatctgtg cagacaaacg
+      241 catcaggata tccggattta cctgaatcaa ttggcgaaat tttttgtacg aaatttcagc
       301 cacttcacag gcggttttcg cacgtaccca tgcgctacgt tcctggccct cttcaaacag
       361 gcccagttcg ccaataaaat caccctgatt cagataggag aggatcattt ctttaccctc
       421 ttcgtctttg atcagcactg ccacagagcc tttaacgatg tagtacagcg tttccgcttt

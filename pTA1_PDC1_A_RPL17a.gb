@@ -1,13 +1,14 @@
-LOCUS       474146_pLann            7985 bp    DNA     circular     20-OCT-2022
+LOCUS       474146_pLann            7985 bp    DNA     circular UNK 20-OCT-2022
 DEFINITION  .
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  . .
+            .
 COMMENT     Annotated with pLannotate v1.2.0
-COMMENT     
-COMMENT     ApEinfo:methylated:0
+            ApEinfo:methylated:0
+            pydna cdseguid=ADs8SQz5tMYMDIhV90M4yO5Xr78 2024-06-11T18:27:56
 FEATURES             Location/Qualifiers
      rep_origin      complement(4972..6318)
                      /note="pLannotate"
@@ -333,5 +334,5 @@ ORIGIN
      7801 ccaccgaagt cggtgatgct gtcgccgaag aagttaagaa aatccttgct taaaaagatt
      7861 ctcttttttt atgatatttg tacataaact ttataaatga aattcataat agaaacgaca
      7921 cgaaattaca aaatggaata tgttcatagg gtagaaactg taaaatcagg tatctcgtag
-     7981 tccgt     
+     7981 tccgt
 //

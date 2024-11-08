@@ -1,14 +1,19 @@
-LOCUS       pYPKpw                  5603 bp    DNA     circular     05-OCT-2022
+LOCUS       pYPKpw                  5603 bp    DNA     circular UNK 05-OCT-2022
+DEFINITION  .
+ACCESSION   .
 VERSION     .
 KEYWORDS    .
+SOURCE      
   ORGANISM  . .
+            .
 COMMENT     Annotated with pLannotate v1.2.0
-COMMENT     This vector can be linearized with ZraI, AatII, FspAI or EcoRV
-COMMENT     cSEGUID WeyovdMmqwA4bc9EqEwUDmbo3Lg
-COMMENT     Features: deltaCRP pUC URA3 2mu amp
-COMMENT     The CRPs gene is inactive, so this vector can be maintained in any
+            This vector can be linearized with ZraI, AatII, FspAI or EcoRV
+            cSEGUID WeyovdMmqwA4bc9EqEwUDmbo3Lg
+            Features: deltaCRP pUC URA3 2mu amp
+            The CRPs gene is inactive, so this vector can be maintained in any
             E. coli strain
-COMMENT     ApEinfo:methylated:0
+            ApEinfo:methylated:0
+            pydna cdseguid=xj7evEO4h83-RGFeHu8q15tL_Qs 2024-06-11T18:53:38
 FEATURES             Location/Qualifiers
      CDS             complement(join(5559..5603,1..426))
                      /note="pLannotate"
@@ -121,15 +126,15 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             complement(1456..2259)
                      /gene="ura3"
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /product="orotidine-5'-phosphate decarboxylase"
                      /protein_id="BAE72675.1"
-                     /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKEL
-                     LELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVK
-                     LQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLS
-                     TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYR
-                     TVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
+                     /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELL
+                     ELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQ
+                     YSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGE
+                     YTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDD
+                     VVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
                      /locus_tag="orotidine-5'-phosphate decarboxylase"
                      /label="orotidine-5'-phosphate decarboxylase"
                      /ApEinfo_label="orotidine-5'-phosphate decarboxylase"
@@ -254,16 +259,16 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             4185..5045
                      /gene="Amp"
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /product="ampicillin resistant protein"
                      /protein_id="BAE72674.1"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
-                     IELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVE
-                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
-                     DRWEPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
-                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIA
-                     EIGASLIKHW"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
                      /locus_tag="ampicillin resistant protein"
                      /label="ampicillin resistant protein"
                      /ApEinfo_label="ampicillin resistant protein"
@@ -646,7 +651,7 @@ FEATURES             Location/Qualifiers
 ORIGIN
         1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
        61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
-      121 tggtGACGTC ATGCGCATGA TATCttcaca ggcggttttc gcacgtaccc atgcgctacg
+      121 tggtgacgtc atgcgcatga tatcttcaca ggcggttttc gcacgtaccc atgcgctacg
       181 ttcctggccc tcttcaaaca ggcccagttc gccaataaaa tcaccctgat tcagatagga
       241 gaggatcatt tctttaccct cttcgtcttt gatcagcact gccacagagc ctttaacgat
       301 gtagtacagc gtttccgctt tttcaccctg gtgaataagc gtgctcttgg atgggtactt
@@ -737,5 +742,5 @@ ORIGIN
      5401 agcagattgt actgagagtg caccatagat cctgaggatc ggggtgataa atcagtctgc
      5461 gccacatcgg gggaaacaaa atggcgcgag atctaaaaaa aaaggctcca aaaggagcct
      5521 ttcgcgctac caggtaacgc gccactccga cgggattaac gagtgccgta aacgacgatg
-     5581 gttttaccgt gtgcggagat cag   
+     5581 gttttaccgt gtgcggagat cag
 //

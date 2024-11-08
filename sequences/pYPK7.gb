@@ -3,9 +3,10 @@ DEFINITION  cSEGUID_OzTYGqLHmK4hKgFANunZ7k9JJUs.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=GjrmuHjqeSJDBnyuaI-9IVn8cdg 2024-06-11T18:53:13
 FEATURES             Location/Qualifiers
      gene            complement(116..748)
                      /gene="crp"

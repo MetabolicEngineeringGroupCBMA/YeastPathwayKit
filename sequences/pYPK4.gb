@@ -8,6 +8,7 @@ SOURCE
             .
 COMMENT     Annotated with pLannotate v1.2.0.
             ApEinfo:methylated:0
+            pydna cdseguid=6_Cv9nPT737AwNP2q3xkluXwf4g 2024-06-11T18:53:15
 FEATURES             Location/Qualifiers
      gene            complement(join(6244..6490,1..386))
                      /gene="crp"

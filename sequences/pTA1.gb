@@ -1,44 +1,81 @@
-LOCUS       pTA1                    6175 bp    DNA     circular SYN 01-JAN-1980
+LOCUS       pTA1                    6175 bp    DNA     circular UNK 23-MAY-2024
 DEFINITION  pTA1 = ampR pBR 2µ LEU2 CRPΔ µ828.
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
 SOURCE      
-  ORGANISM  .
+  ORGANISM  . .
             .
 COMMENT     Annotated with pLannotate v1.2.0. pydna cSEGUID
             _E-9A37sZOIs9RFYPb3ENzud6FI 2022-11-08T18:16:15
+            ApEinfo:methylated:1
+            pydna cdseguid=MtltqcR0b0kVX_FJ4BYL-PjEAfg 2024-06-11T18:53:46
 FEATURES             Location/Qualifiers
      primer_bind     1..29
+                     /locus_tag="577_crp585-557"
                      /label="577_crp585-557"
+                     /ApEinfo_label="577_crp585-557"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     1..16
+                     /locus_tag="978_Crp.FW"
                      /label="978_Crp.FW"
+                     /ApEinfo_label="978_Crp.FW"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(96..124)
+                     /locus_tag="865_pYPKpwR"
                      /label="865_pYPKpwR"
+                     /ApEinfo_label="865_pYPKpwR"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     144..173
+                     /locus_tag="866_pYPKpwF"
                      /label="866_pYPKpwF"
+                     /ApEinfo_label="866_pYPKpwF"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(357..385)
+                     /locus_tag="578_crp42-70"
                      /label="578_crp42-70"
+                     /ApEinfo_label="578_crp42-70"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(369..385)
+                     /locus_tag="977_Crp.REV"
                      /label="977_Crp.REV"
+                     /ApEinfo_label="977_Crp.REV"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     446..470
+                     /locus_tag="1113_Amp.fw.nw"
                      /label="1113_Amp.fw.nw"
+                     /ApEinfo_label="1113_Amp.fw.nw"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      gene            547..1407
                      /gene="AmpR"
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="#ff797d"
+                     /ApEinfo_revcolor="#ff102f"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             547..1407
                      /gene="AmpR"
                      /codon_start=1
@@ -53,39 +90,119 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
+                     /locus_tag="Protocol for ampicillin stock solution
+                     resistance protein"
+                     /label="Protocol for ampicillin stock solution resistance
+                     protein"
+                     /ApEinfo_label="Protocol for ampicillin stock solution
+                     resistance protein"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(1436..1457)
+                     /locus_tag="987_Amp.REV"
                      /label="987_Amp.REV"
+                     /ApEinfo_label="987_Amp.REV"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      repeat_region   complement(1565..1602)
                      /note="corresponds to one of the 38bp repeats found in Tn3
                      (bp 1-38 and complement (4920-4957))"
                      /rpt_type=inverted
+                     /locus_tag="corresponds to one of the 38bp repeats found in
+                     Tn3 (bp 1-38 and complement (4920-4957))"
+                     /label="corresponds to one of the 38bp repeats found in Tn3
+                     (bp 1-38 and complement (4920-4957))"
+                     /ApEinfo_label="corresponds to one of the 38bp repeats
+                     found in Tn3 (bp 1-38 and complement (4920-4957))"
+                     /ApEinfo_fwdcolor="#0dfff7"
+                     /ApEinfo_revcolor="#0dfff7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      old_sequence    complement(2020..2021)
                      /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
                      /replace="at"
+                     /locus_tag="revision according to (17)"
+                     /label="revision according to (17)"
+                     /ApEinfo_label="revision according to (17)"
+                     /ApEinfo_fwdcolor="#00DF87"
+                     /ApEinfo_revcolor="#00DF87"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      old_sequence    complement(2020)
                      /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
                      /replace="t"
+                     /locus_tag="revision according to (16)"
+                     /label="revision according to (16)"
+                     /ApEinfo_label="revision according to (16)"
+                     /ApEinfo_fwdcolor="#00D95A"
+                     /ApEinfo_revcolor="#00D95A"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      old_sequence    complement(2021)
                      /citation=[17]
+                     /locus_tag="old_sequence"
+                     /label="old_sequence"
+                     /ApEinfo_label="old_sequence"
+                     /ApEinfo_fwdcolor="#008065"
+                     /ApEinfo_revcolor="#008065"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      rep_origin      complement(2215)
+                     /locus_tag="rep_origin"
+                     /label="rep_origin"
+                     /ApEinfo_label="rep_origin"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_binding    complement(2303..2311)
                      /bound_moiety="dnaA"
+                     /locus_tag="misc_binding"
+                     /label="misc_binding"
+                     /ApEinfo_label="misc_binding"
+                     /ApEinfo_fwdcolor="#ff4809"
+                     /ApEinfo_revcolor="#ff4809"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_feature    2336..2399
                      /note="L-strand Y effector site"
                      /citation=[5]
+                     /locus_tag="L-strand Y effector site"
+                     /label="L-strand Y effector site"
+                     /ApEinfo_label="L-strand Y effector site"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      repeat_region   2501..2505
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
+                     /locus_tag="gamma-delta insertion target sequence"
+                     /label="gamma-delta insertion target sequence"
+                     /ApEinfo_label="gamma-delta insertion target sequence"
+                     /ApEinfo_fwdcolor="#0dfff7"
+                     /ApEinfo_revcolor="#0dfff7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_feature    complement(2583..2739)
                      /note="H-strand Y effector site"
                      /citation=[5]
+                     /locus_tag="H-strand Y effector site"
+                     /label="H-strand Y effector site"
+                     /ApEinfo_label="H-strand Y effector site"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             complement(2644..2835)
                      /codon_start=1
                      /transl_table=11
@@ -93,44 +210,113 @@ FEATURES             Location/Qualifiers
                      /protein_id="AAB59736.1"
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
+                     /locus_tag="ROP protein"
+                     /label="ROP protein"
+                     /ApEinfo_label="ROP protein"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      old_sequence    complement(2835..2836)
                      /citation=[17]
+                     /locus_tag="old_sequence(1)"
+                     /label="old_sequence(1)"
+                     /ApEinfo_label="old_sequence"
+                     /ApEinfo_fwdcolor="#13AAFE"
+                     /ApEinfo_revcolor="#13AAFE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_difference complement(2836..2837)
                      /note="conflict"
                      /citation=[23]
                      /replace="caa"
+                     /locus_tag="conflict"
+                     /label="conflict"
+                     /ApEinfo_label="conflict"
+                     /ApEinfo_fwdcolor="#3A93FE"
+                     /ApEinfo_revcolor="#3A93FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      regulatory      complement(2840..2845)
                      /regulatory_class="ribosome_binding_site"
+                     /locus_tag="regulatory:ribosome_binding_site"
+                     /label="regulatory:ribosome_binding_site"
+                     /ApEinfo_label="regulatory:ribosome_binding_site"
+                     /ApEinfo_fwdcolor="#2D64FE"
+                     /ApEinfo_revcolor="#2D64FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      regulatory      complement(2841..2845)
-                     /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="Shine-Dalgarno sequence"
+                     /label="Shine-Dalgarno sequence"
+                     /ApEinfo_label="Shine-Dalgarno sequence"
+                     /ApEinfo_fwdcolor="#00891F"
+                     /ApEinfo_revcolor="#00891F"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      old_sequence    complement(2857..2858)
                      /citation=[2]
                      /citation=[22]
+                     /locus_tag="old_sequence(2)"
+                     /label="old_sequence(2)"
+                     /ApEinfo_label="old_sequence"
+                     /ApEinfo_fwdcolor="#00C6C3"
+                     /ApEinfo_revcolor="#00C6C3"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_difference complement(2858..2859)
                      /note="conflict"
                      /citation=[23]
                      /replace="att"
+                     /locus_tag="conflict(1)"
+                     /label="conflict(1)"
+                     /ApEinfo_label="conflict"
+                     /ApEinfo_fwdcolor="#00D0FA"
+                     /ApEinfo_revcolor="#00D0FA"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     2875..2893
+                     /locus_tag="1196_Pbr.FW"
                      /label="1196_Pbr.FW"
+                     /ApEinfo_label="1196_Pbr.FW"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(2881..2894)
+                     /locus_tag="1195_Pbr.REV"
                      /label="1195_Pbr.REV"
+                     /ApEinfo_label="1195_Pbr.REV"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     2925..2943
+                     /locus_tag="984_Micron.FW"
                      /label="984_Micron.FW"
+                     /ApEinfo_label="984_Micron.FW"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     complement(4491..4508)
+                     /locus_tag="983_Micron.REV"
                      /label="983_Micron.REV"
+                     /ApEinfo_label="983_Micron.REV"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      primer_bind     4539..4556
+                     /locus_tag="980_Leu2.FW"
                      /label="980_Leu2.FW"
+                     /ApEinfo_label="980_Leu2.FW"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      promoter        4541..4948
                      /gene="S. cerevisiae LEU2"
                      /locus_tag="LEU2 promoter"
@@ -197,113 +383,195 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
      primer_bind     complement(6126..6146)
+                     /locus_tag="979_Leu2.REV"
                      /label="979_Leu2.REV"
+                     /ApEinfo_label="979_Leu2.REV"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      rep_origin      complement(3162..4508)
                      /note="pLannotate"
-                     /label="2μ ori"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="rep_origin"
+                     /locus_tag="2μ ori"
+                     /label="2μ ori"
+                     /ApEinfo_label="2μ ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      rep_origin      1628..2216
                      /note="pLannotate"
-                     /label="ori"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="rep_origin"
+                     /locus_tag="ori"
+                     /label="ori"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             complement(2644..2835)
                      /note="pLannotate"
-                     /label="rop"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="rop"
+                     /label="rop"
+                     /ApEinfo_label="rop"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      misc_feature    complement(2402..2542)
                      /note="pLannotate"
-                     /label="bom"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="misc_feature"
+                     /locus_tag="bom"
+                     /label="bom"
+                     /ApEinfo_label="bom"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             4949..6043
                      /note="pLannotate"
-                     /label="LEU2"
                      /database="snapgene"
                      /identity="99.5"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="LEU2(2)"
+                     /label="LEU2(2)"
+                     /ApEinfo_label="LEU2"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      promoter        425..516
                      /note="pLannotate"
-                     /label="AmpR promoter"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
                      /fragment="False"
                      /other="promoter"
+                     /locus_tag="AmpR promoter"
+                     /label="AmpR promoter"
+                     /ApEinfo_label="AmpR promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             517..1377
                      /note="pLannotate"
-                     /label="AmpR"
                      /database="snapgene"
                      /identity="99.8"
                      /match_length="100.0"
                      /fragment="False"
                      /other="CDS"
+                     /locus_tag="AmpR(1)"
+                     /label="AmpR(1)"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      promoter        4541..4948
                      /note="pLannotate"
-                     /label="LEU2 promoter"
                      /database="snapgene"
                      /identity="99.5"
                      /match_length="100.0"
                      /fragment="False"
                      /other="promoter"
+                     /locus_tag="LEU2 promoter(2)"
+                     /label="LEU2 promoter(2)"
+                     /ApEinfo_label="LEU2 promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             complement(1..384)
                      /note="pLannotate"
-                     /label="crp (fragment)"
                      /database="swissprot"
                      /identity="69.1"
                      /match_length="61.0"
                      /fragment="True"
                      /other="CDS"
+                     /locus_tag="crp (fragment)"
+                     /label="crp (fragment)"
+                     /ApEinfo_label="crp (fragment)"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      ncRNA           complement(1667..1771)
                      /note="pLannotate"
-                     /label="RNAI"
                      /database="Rfam"
                      /identity="100.0"
                      /match_length="102.9"
                      /fragment="False"
                      /other="ncRNA"
+                     /locus_tag="RNAI"
+                     /label="RNAI"
+                     /ApEinfo_label="RNAI"
+                     /ApEinfo_fwdcolor="#00D308"
+                     /ApEinfo_revcolor="#00D308"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             complement(4329..4508)
                      /note="pLannotate"
-                     /label="FLP (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="14.2"
                      /fragment="True"
                      /other="CDS"
+                     /locus_tag="FLP (fragment)"
+                     /label="FLP (fragment)"
+                     /ApEinfo_label="FLP (fragment)"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      protein_bind    complement(4147..4176)
                      /note="pLannotate"
-                     /label="FRT (mutant) (fragment)"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="62.5"
                      /fragment="True"
                      /other="protein_bind"
+                     /locus_tag="FRT (mutant) (fragment)"
+                     /label="FRT (mutant) (fragment)"
+                     /ApEinfo_label="FRT (mutant) (fragment)"
+                     /ApEinfo_fwdcolor="#2D64FE"
+                     /ApEinfo_revcolor="#2D64FE"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
      CDS             2919..3008
                      /note="pLannotate"
-                     /label="RAF1 (fragment)"
                      /database="swissprot"
                      /identity="93.3"
                      /match_length="16.6"
                      /fragment="True"
                      /other="CDS"
+                     /locus_tag="RAF1 (fragment)"
+                     /label="RAF1 (fragment)"
+                     /ApEinfo_label="RAF1 (fragment)"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {0 .5 .1 .5 .1 -.5 0 -.5} 0} width 5 offset 0"
 ORIGIN
         1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
        61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc

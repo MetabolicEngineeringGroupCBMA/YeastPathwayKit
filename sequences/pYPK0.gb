@@ -1,4 +1,4 @@
-LOCUS       pYPK0                   5762 bp    DNA     circular     17-OCT-2022
+LOCUS       pYPK0                   5762 bp    DNA     circular UNK 17-OCT-2022
 DEFINITION  pYPK0
             cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2015-05-09T06:06:22.550085.
 ACCESSION   .
@@ -6,8 +6,10 @@ VERSION     .
 KEYWORDS    .
 SOURCE      
   ORGANISM  . . .
+            .
 COMMENT     Linearize with ZraI or NotI or AatII
-COMMENT     ApEinfo:methylated:0
+            ApEinfo:methylated:0
+            pydna cdseguid=oWyz8EF-LXEuzTc1nodipu_zdK4 2024-06-11T18:53:31
 FEATURES             Location/Qualifiers
      gene            complement(join(5715..5762,1..585))
                      /gene="crp"
@@ -20,17 +22,17 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             complement(join(5715..5762,1..585))
                      /product="catabolite gene activator protein"
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /note="artificially mutated crp; cyclic AMP receptor
                      protein"
                      /db_xref="GI:2769262"
                      /experiment="experimental evidence, no additional details
                      recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIV
-                     KGSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKK
-                     FRQLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTH
-                     PDGMQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
                      /gene="crp"
                      /protein_id="CAA04867.1"
                      /locus_tag="artificially mutated crp; cyclic AMP receptor
@@ -53,8 +55,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#FED2EA"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-     rep_origin      951..951
-                     /direction="BOTH"
+     rep_origin      951
+                     /direction=BOTH
                      /locus_tag="feat1"
                      /label="feat1"
                      /ApEinfo_label="feat1"
@@ -391,5 +393,5 @@ ORIGIN
      5581 accatagatc ctgaggatcg gggtgataaa tcagtctgcg ccacatcggg ggaaacaaaa
      5641 tggcgcgaga tctaaaaaaa aaggctccaa aaggagcctt tcgcgctacc aggtaacgcg
      5701 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
-     5761 ag     
+     5761 ag
 //

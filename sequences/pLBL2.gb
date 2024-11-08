@@ -1,4 +1,4 @@
-LOCUS       pLBL2                   6964 bp    DNA     circular     07-OCT-2022
+LOCUS       pLBL2                   6964 bp    DNA     circular UNK 07-OCT-2022
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -6,10 +6,10 @@ DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
 SOURCE      
   ORGANISM  . . .
-COMMENT     
-COMMENT     
+            .
 COMMENT     ApEinfo:methylated:0
-COMMENT     ApEinfo:cSEGUID:Y9N9GHq6Rkv4mVbKbZXcWmMSOg0
+            ApEinfo:cSEGUID:Y9N9GHq6Rkv4mVbKbZXcWmMSOg0
+            pydna cdseguid=sdA4SI1neKWRV66479NTg5xKhgo 2024-06-11T18:53:13
 FEATURES             Location/Qualifiers
      primer_bind     complement(96..124)
                      /note="pYPKpwR"
@@ -167,8 +167,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#D4CDDA"
                      /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
                      -0.5} {} 0} width 5 offset 0"
-     rep_origin      2153..2153
-                     /direction="BOTH"
+     rep_origin      2153
+                     /direction=BOTH
                      /locus_tag="rep_origin"
                      /label="rep_origin"
                      /ApEinfo_label="rep_origin"
@@ -239,15 +239,15 @@ FEATURES             Location/Qualifiers
                      -0.5} {} 0} width 5 offset 0"
      CDS             complement(5546..6406)
                      /product="ampicillin resistant protein"
-                     /codon_start="1"
-                     /transl_table="11"
+                     /codon_start=1
+                     /transl_table=11
                      /db_xref="GI:84570489"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
-                     IELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVE
-                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
-                     DRWEPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
-                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIA
-                     EIGASLIKHW"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
                      /gene="Amp"
                      /protein_id="BAE72674.1"
                      /locus_tag="ampicillin resistant protein"
@@ -635,5 +635,5 @@ ORIGIN
      6781 gcaccataga tcctgaggat cggggtgata aatcagtctg cgccacatcg ggggaaacaa
      6841 aatggcgcga gatctaaaaa aaaaggctcc aaaaggagcc tttcgcgcta ccaggtaacg
      6901 cgccactccg acgggattaa cgagtgccgt aaacgacgat ggttttaccg tgtgcggaga
-     6961 tcag     
+     6961 tcag
 //

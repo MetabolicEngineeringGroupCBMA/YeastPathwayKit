@@ -3,9 +3,10 @@ DEFINITION  .
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=e8mbBGv1XGPeKlDPHA64wdCJj8Y 2024-06-11T18:40:15
 FEATURES             Location/Qualifiers
      CDS             583..3660
                      /product="beta-D-galactosidase"

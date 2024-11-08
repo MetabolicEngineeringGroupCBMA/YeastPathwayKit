@@ -4,9 +4,10 @@ DEFINITION  pcr_product_866_pYPKpwF (79-mer)_865_pYPKpwR (79-mer)
 ACCESSION   6180bp_gCItH7lLRXLdK3XbHaL3u89TYD4
 VERSION     6180bp_gCItH7lLRXLdK3XbHaL3u89TYD4
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=fmwzzI4AizvXzZufup73jSdZhvU 2024-06-11T18:53:15
 FEATURES             Location/Qualifiers
      primer_bind     complement(458..486)
                      /label="865_pYPKpwR"

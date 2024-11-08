@@ -9,6 +9,7 @@ SOURCE
             .
 COMMENT     Annotated with pLannotate v1.2.0.
             ApEinfo:methylated:0
+            pydna cdseguid=j5rvZjLm990yJtvJXA865lADbt4 2024-06-11T18:40:08
 FEATURES             Location/Qualifiers
      terminator      complement(3605..3637)
                      /locus_tag="3' part of coli chr"

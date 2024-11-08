@@ -4,10 +4,11 @@ ACCESSION   accession
 VERSION     accession
 DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
 COMMENT     pydna cSEGUID Q0icKNqO7ybno7OIsWl2c6LuG9I 2022-12-07T15:58:43
+            pydna cdseguid=0E3NpLgKGc0DcboW60XRdi64XQk 2024-06-11T18:28:08
 FEATURES             Location/Qualifiers
      misc            250..1340
                      /type="terminator"

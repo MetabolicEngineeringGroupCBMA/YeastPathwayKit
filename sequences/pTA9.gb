@@ -3,9 +3,10 @@ DEFINITION  2µ URA3 cSEGUID_bu4wKTyQJLR8S4Al3gyElccdj-w.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=oQmUFWxbL3dlk46nTJm0vSk7NAw 2024-06-11T18:53:15
 FEATURES             Location/Qualifiers
      CDS             join(5529..5685,1..35)
                      /codon_start=1

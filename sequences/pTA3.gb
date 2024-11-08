@@ -3,9 +3,10 @@ DEFINITION  2µ HIS3 cSEGUID_idUzUj1AIXY3ILp9AJ0vcmcTyYI.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=yeYvsKPFlmKHgZymfz9enSmeOww 2024-06-11T18:53:15
 FEATURES             Location/Qualifiers
      CDS             join(5520..5676,1..35)
                      /codon_start=1

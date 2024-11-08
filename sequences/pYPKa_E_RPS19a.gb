@@ -4,9 +4,10 @@ ACCESSION   id
 VERSION     id
 DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
-SOURCE      .
+SOURCE      
   ORGANISM  .
             .
+COMMENT     pydna cdseguid=Xj1TdoZrpQUtacVmz8RDvFb6ybY 2024-06-11T18:40:12
 FEATURES             Location/Qualifiers
      gene            complement(join(3638..3685,1..249,807..1142))
                      /gene="crp"
